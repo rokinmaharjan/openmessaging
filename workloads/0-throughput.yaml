@@ -4,6 +4,36 @@ topics: 1
 partitionsPerTopic: 1
 keyDistributor: "NO_KEY"
 
+
+# 2KB
+#messageSize: 2048
+#payloadFile: "payload/payload-2Kb.data"
+
+# 4KB
+#messageSize: 4096
+#payloadFile: "payload/payload-4Kb.data"
+
+
+# 100B
+#messageSize: 100
+#payloadFile: "payload/payload-100b.data"
+
+# 200B
+#messageSize: 200
+#payloadFile: "payload/payload-200b.data"
+
+# 400B
+#messageSize: 400
+#payloadFile: "payload/payload-400b.data"
+
+# 32KB
+#messageSize: 32768
+##payloadFile: "payload/payload-1Kb.data"
+#useRandomizedPayloads: true
+#randomBytesRatio: 0.5
+#randomizedPayloadPoolSize: 100
+
+
 #200B
 #messageSize: 200
 ##payloadFile: "payload/payload-1Kb.data"
@@ -18,8 +48,6 @@ keyDistributor: "NO_KEY"
 #useRandomizedPayloads: true
 #randomBytesRatio: 0.5
 #randomizedPayloadPoolSize: 100
-
-
 
 
 #10B
@@ -37,6 +65,7 @@ keyDistributor: "NO_KEY"
 #randomizedPayloadPoolSize: 100
 
 
+
 #1KB
 #messageSize: 1024
 ##payloadFile: "payload/payload-1Kb.data"
@@ -45,21 +74,13 @@ keyDistributor: "NO_KEY"
 #randomizedPayloadPoolSize: 100
 
 
+
 #10KB
 #messageSize: 10240
 ##payloadFile: "payload/payload-1Kb.data"
 #useRandomizedPayloads: true
 #randomBytesRatio: 0.5
 #randomizedPayloadPoolSize: 100
-
-
-# 32KB
-#messageSize: 32768
-##payloadFile: "payload/payload-1Kb.data"
-#useRandomizedPayloads: true
-#randomBytesRatio: 0.5
-#randomizedPayloadPoolSize: 100
-
 
 #50KB
 #messageSize: 51200
@@ -75,7 +96,6 @@ messageSize: 102400
 useRandomizedPayloads: true
 randomBytesRatio: 0.5
 randomizedPayloadPoolSize: 100
-
 
 
 
